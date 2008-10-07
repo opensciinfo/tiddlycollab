@@ -42,7 +42,9 @@ DAMAGE.
 <link rel='alternate' type='application/rss+xml' title='RSS' href='index.xml' />
 <!--}}}-->
 <!--PRE-HEAD-END-->
-<title> My TiddlyWiki - a reusable non-linear personal web notebook </title>
+<title>
+
+</title>
 <style id="styleArea" type="text/css">
 #saveTest {display:none;}
 #messageArea {display:none;}
@@ -53,12 +55,10 @@ DAMAGE.
 #javascriptWarning {width:100%; text-align:center; font-weight:bold; background-color:#dd1100; color:#fff; padding:1em 0em;}
 </style>
 <!--POST-HEAD-START-->
-
 <!--POST-HEAD-END-->
 </head>
 <body onload="main();" onunload="if(window.checkUnsavedChanges) checkUnsavedChanges(); if(window.scrubNodes) scrubNodes(document.body);">
 <!--PRE-BODY-START-->
-
 <!--PRE-BODY-END-->
 <div id="copyright">
 Welcome to TiddlyWiki created by Jeremy Ruston, Copyright &copy; 2007 UnaMesa Association
@@ -506,61 +506,6 @@ Also see AdvancedOptions</pre>
 </div>
 <!--POST-SHADOWAREA-->
 <div id="storeArea">
-<div title="Getting Started" modifier="MikeChelen" created="200810072123" modified="200810072130" changecount="7">
-<pre>
-!!Set up Git repository
-1) Visit http://github.com and register for a free account
-2) Add your SSH key to the account (learn more http://github.com/guides/providing-your-ssh-key )
-3) Create a new repository, let's call it &quot;tiddlycollab&quot; and set the description and url to whatever you like
-
-!!Local setup
-1) Install Git if you have not already
-2) Configure Git
-{{{git config --global user.email YOUREMAIL@DOMAIN.COM}}}
-
-!!Begin use of repo
-open command line
-Folow git hub next steps:
-{{{  mkdir tiddlycollab
-  cd tiddlycollab
-  git init
-  touch README
-  git add README
-  git commit -m 'first commit'
-  git remote add origin git@github.com:opensciinfo/tiddlycollab.git
-  git push origin master}}}
-      
-
-Visit http://www.tiddlywiki.com/ to download a blank copy of TiddlyWiki and save it to this directory
-
-{{{git add empty.html}}}
-or
-{{{git add .}}}
-
-{{{git commit -m 'blank tiddlywiki'}}}
-{{{git push origin master}}}
-
-
-copy empty.html to tiddlycollab.html
-
-{{{cp empty.html tiddlycollab.html}}}
-
-{{{git add tiddlycollab.html}}}
-or
-{{{git add .}}}
-
-{{{git commit -m 'began tiddly collab tutorial'}}}
-{{{git push origin master}}}
-
-
-open tiddlycollab.html in a browser
-do some editing
-save to repository
-
-{{{git commit -m 'began writing tiddly collab tutorial'}}}
-{{{git push origin master}}}
-</pre>
-</div>
 </div>
 <!--POST-STOREAREA-->
 <!--POST-BODY-START-->
@@ -9380,7 +9325,6 @@ if(useJavaSaver)
 //]]>
 </script>
 <!--POST-SCRIPT-START-->
-
 <!--POST-SCRIPT-END-->
 </body>
 </html>

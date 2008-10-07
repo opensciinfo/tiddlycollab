@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+<title>My TiddlyWiki</title>
+<link>http://www.tiddlywiki.com/</link>
+<description>a reusable non-linear personal web notebook</description>
+<language>en</language>
+<copyright>Copyright 2008 MikeChelen</copyright>
+<pubDate>Tue, 07 Oct 2008 21:30:38 GMT</pubDate>
+<lastBuildDate>Tue, 07 Oct 2008 21:30:38 GMT</lastBuildDate>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<generator>TiddlyWiki 2.4.1</generator>
+<item>
+<title>Getting Started</title>
+<description>&lt;br&gt;&lt;h2&gt;Set up Git repository&lt;/h2&gt;1) Visit &lt;a target=&quot;_blank&quot; title=&quot;External link to http://github.com&quot; href=&quot;http://github.com&quot; class=&quot;externalLink&quot;&gt;http://github.com&lt;/a&gt; and register for a free account&lt;br&gt;2) Add your SSH key to the account (learn more &lt;a target=&quot;_blank&quot; title=&quot;External link to http://github.com/guides/providing-your-ssh-key&quot; href=&quot;http://github.com/guides/providing-your-ssh-key&quot; class=&quot;externalLink&quot;&gt;http://github.com/guides/providing-your-ssh-key&lt;/a&gt; )&lt;br&gt;3) Create a new repository, let's call it &quot;tiddlycollab&quot; and set the description and url to whatever you like&lt;br&gt;&lt;br&gt;&lt;h2&gt;Local setup&lt;/h2&gt;1) Install Git if you have not already&lt;br&gt;2) Configure Git&lt;br&gt;&lt;code&gt;git config --global user.email YOUREMAIL@DOMAIN.COM&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;Begin use of repo&lt;/h2&gt;open command line&lt;br&gt;Folow git hub next steps:&lt;br&gt;&lt;code&gt;  mkdir tiddlycollab
+  cd tiddlycollab
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:opensciinfo/tiddlycollab.git
+  git push origin master&lt;/code&gt;&lt;br&gt;      &lt;br&gt;&lt;br&gt;Visit &lt;a target=&quot;_blank&quot; title=&quot;External link to http://www.tiddlywiki.com/&quot; href=&quot;http://www.tiddlywiki.com/&quot; class=&quot;externalLink&quot;&gt;http://www.tiddlywiki.com/&lt;/a&gt; to download a blank copy of &lt;a tiddlylink=&quot;TiddlyWiki&quot; refresh=&quot;link&quot; target=&quot;_blank&quot; title=&quot;External link to http://www.tiddlywiki.com/#TiddlyWiki&quot; href=&quot;http://www.tiddlywiki.com/#TiddlyWiki&quot; class=&quot;externalLink null&quot;&gt;TiddlyWiki&lt;/a&gt; and save it to this directory&lt;br&gt;&lt;br&gt;&lt;code&gt;git add empty.html&lt;/code&gt;&lt;br&gt;or&lt;br&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;code&gt;git commit -m 'blank tiddlywiki'&lt;/code&gt;&lt;br&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;copy empty.html to tiddlycollab.html&lt;br&gt;&lt;br&gt;&lt;code&gt;cp empty.html tiddlycollab.html&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;code&gt;git add tiddlycollab.html&lt;/code&gt;&lt;br&gt;or&lt;br&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;code&gt;git commit -m 'began tiddly collab tutorial'&lt;/code&gt;&lt;br&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;open tiddlycollab.html in a browser&lt;br&gt;do some editing&lt;br&gt;save to repository&lt;br&gt;&lt;br&gt;&lt;code&gt;git commit -m 'began writing tiddly collab tutorial'&lt;/code&gt;&lt;br&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;br&gt;</description>
+<link>http://www.tiddlywiki.com/#%5B%5BGetting%20Started%5D%5D</link>
+<pubDate>Tue, 07 Oct 2008 21:30:38 GMT</pubDate>
+</item>
+</channel>
+</rss>
